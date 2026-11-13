@@ -1,0 +1,8 @@
+[build]
+  # The Angular project lives in this subdirectory, not at the repo root.
+  base = "npx-frontend"
+  # Install dependencies first so the Angular CLI (`ng`) is available even
+  # when the build runs without a prior automatic install step.
+  command = "npm install --no-audit --no-fund && npm run build"
+  # Relative to the base directory.
+  publish = "dist/npx-frontend/browser"
