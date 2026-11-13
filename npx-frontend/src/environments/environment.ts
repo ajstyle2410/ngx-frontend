@@ -1,3 +1,4 @@
 export const environment = {
-  apiUrl: 'http://localhost:8080/api',
+  production: true,
+  apiUrl: 'https://ngx-backend-377n.onrender.com/api',
 };
